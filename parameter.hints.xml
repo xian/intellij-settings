@@ -1,0 +1,10 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="com.google.common.truth.Subject.isEqualTo(expected)" />
+        <added pattern="com.google.common.truth.IterableSubject.containsExactly(varargs)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

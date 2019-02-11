@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="test" value="@org.junit.Test&#10;public void $name$() throws Exception {&#10;  $END$&#10;}" description="test" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
