@@ -5,6 +5,10 @@
         <added pattern="com.google.common.truth.Subject.isEqualTo(expected)" />
         <added pattern="com.google.common.truth.IterableSubject.containsExactly(varargs)" />
       </blacklist>
+      <blacklist language="Kotlin">
+        <added pattern="org.jetbrains.kotlin.gradle.plugin.KotlinDependencyHandler.kotlin(simpleModuleName)" />
+        <added pattern="org.jetbrains.kotlin.gradle.plugin.KotlinDependencyHandler.implementation(dependencyNotation)" />
+      </blacklist>
     </blacklists>
   </component>
 </application>
