@@ -8,6 +8,7 @@
       <blacklist language="Kotlin">
         <added pattern="org.jetbrains.kotlin.gradle.plugin.KotlinDependencyHandler.kotlin(simpleModuleName)" />
         <added pattern="org.jetbrains.kotlin.gradle.plugin.KotlinDependencyHandler.implementation(dependencyNotation)" />
+        <added pattern="org.jetbrains.kotlin.gradle.plugin.KotlinDependencyHandler.runtimeOnly(dependencyNotation)" />
       </blacklist>
     </blacklists>
   </component>
