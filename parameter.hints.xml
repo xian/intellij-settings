@@ -11,6 +11,7 @@
         <added pattern="org.jetbrains.kotlin.gradle.plugin.KotlinDependencyHandler.runtimeOnly(dependencyNotation)" />
         <added pattern="kotlin.collections.joinToString(separator,prefix,postfix,limit,truncated,transform)" />
         <added pattern="kotlin.test.expect(expected,block)" />
+        <added pattern="baaahs.glshaders.GlslCode.ContentType(description)" />
       </blacklist>
     </blacklists>
   </component>
