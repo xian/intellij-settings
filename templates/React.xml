@@ -1,0 +1,9 @@
+<templateSet group="React">
+  <template name="rc" value="fun RBuilder.$lower$(handler: $CLASS$Props.() -&gt; Unit): ReactElement =&#10;    child($CLASS$::class) { this.attrs(handler) }" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="lower" expression="decapitalize(CLASS)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>
