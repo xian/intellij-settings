@@ -1,4 +1,5 @@
 <keymap version="1" name="Mac OS X copy 1" parent="Mac OS X">
+  <action id="ContextHelp" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="ctrl meta alt right" />
     <keyboard-shortcut first-keystroke="ctrl meta alt left" />
