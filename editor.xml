@@ -38,7 +38,7 @@
     <option name="IS_DND_ENABLED" value="false" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="JavaLens" />
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
     <settingsMapElement>
       <JAVA.JavaLens>
         <JavaLensSettings>
