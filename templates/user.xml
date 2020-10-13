@@ -16,10 +16,30 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="log" value="val logger = baaahs.util.Logger($CLASS$)" description="Create Logger" toReformat="false" toShortenFQNames="true">
+  <template name="log" value="private val logger = baaahs.util.Logger&lt;$CLASS$&gt;()" description="Create Logger" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="li" value="logger.info { &quot;$END$&quot; }" description="logger.info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ld" value="logger.debug { &quot;$END$&quot; }" description="logger.debug" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="lw" value="logger.warn { &quot;$END$&quot; }" description="warn" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="le" value="logger.error(e) { &quot;$END$&quot; }" description="error" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
