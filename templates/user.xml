@@ -16,4 +16,10 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="log" value="val logger = baaahs.util.Logger($CLASS$)" description="Create Logger" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
 </templateSet>
