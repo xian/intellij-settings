@@ -346,6 +346,16 @@
   <component name="NodeRendererSettings">
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundNodeRenderer">
+        <option name="NAME" value="OpenShader" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="baaahs.gl.shader.OpenShader" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="baaahs.gl.shader.OpenShader" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" value="&quot;Shader(${shader.title})&quot;&#13;&#13;Kotlin" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundNodeRenderer">
         <option name="NAME" value="Map" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="java.util.Map" />
