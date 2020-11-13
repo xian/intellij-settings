@@ -346,6 +346,20 @@
   <component name="NodeRendererSettings">
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundNodeRenderer">
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="org.spekframework.spek2.runtime.lifecycle.LetValueGetter" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="org.spekframework.spek2.runtime.lifecycle.LetValueGetter" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" expression="valueForTest" language="kotlin" mode="CODE_FRAGMENT" />
+        </Renderer>
+        <Renderer ID="ExpressionChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="org.spekframework.spek2.runtime.lifecycle.LetValueGetter" />
+          <option name="CHILDREN_EXPANDABLE" value="&#13;&#13;Kotlin" />
+          <option name="CHILDREN_EXPRESSION" value="valueForTest&#13;&#13;Kotlin" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundNodeRenderer">
         <option name="NAME" value="OpenShader" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="baaahs.gl.shader.OpenShader" />
