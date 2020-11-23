@@ -15,7 +15,7 @@
       </value>
     </option>
   </AndroidXmlCodeStyleSettings>
-  <JSCodeStyleSettings>
+  <JSCodeStyleSettings version="0">
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
   </JSCodeStyleSettings>
@@ -43,6 +43,7 @@
   <JetCodeStyleSettings>
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT" value="2147483647" />
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="2147483647" />
+    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
   </JetCodeStyleSettings>
   <Objective-C>
     <option name="INDENT_NAMESPACE_MEMBERS" value="0" />
@@ -92,7 +93,7 @@
   <Python>
     <option name="USE_CONTINUATION_INDENT_FOR_ARGUMENTS" value="true" />
   </Python>
-  <TypeScriptCodeStyleSettings>
+  <TypeScriptCodeStyleSettings version="0">
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="IMPORTS_WRAP" value="0" />
     <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
@@ -630,6 +631,7 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="kotlin">
+    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
