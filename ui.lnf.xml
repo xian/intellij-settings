@@ -2,5 +2,6 @@
   <component name="UISettings">
     <option name="DND_WITH_PRESSED_ALT_ONLY" value="true" />
     <option name="IDE_AA_TYPE" value="Greyscale" />
+    <option name="SHOW_NAVIGATION_BAR_MEMBERS" value="false" />
   </component>
 </application>
