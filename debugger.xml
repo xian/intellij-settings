@@ -347,6 +347,15 @@
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundNodeRenderer">
         <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="baaahs.show.live.LiveShaderInstance" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="baaahs.show.live.LiveShaderInstance" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" value="shader.title&#13;&#13;Kotlin" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundNodeRenderer">
+        <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="kotlin.Pair" />
         <Renderer ID="LabelRenderer" role="label">
           <option name="QUALIFIED_NAME" value="kotlin.Pair" />
