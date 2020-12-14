@@ -2,7 +2,11 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
+        <option value="at kotlin.test.Asserter" />
         <option value="at kotlin.test.AssertionsKt" />
+        <option value="at kotlin.test.junit.JUnitAsserter" />
+        <option value="at kotlinx.coroutines.scheduling.CoroutineScheduler" />
+        <option value="at org.spekframework.spek2.runtime" />
       </list>
     </option>
   </component>
