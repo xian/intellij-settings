@@ -5,10 +5,17 @@
     <keyboard-shortcut first-keystroke="shift meta underscore" />
   </action>
   <action id="ContextHelp" />
+  <action id="DatabaseView.OpenDdlInConsole" />
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift meta add" />
     <keyboard-shortcut first-keystroke="shift meta equals" />
     <keyboard-shortcut first-keystroke="shift meta plus" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift meta alt b" />
+  </action>
+  <action id="Git.CreateNewBranch">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt b" />
   </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="ctrl meta alt right" />
