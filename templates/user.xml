@@ -51,7 +51,7 @@
   </template>
   <template name="val" value="val $NAME$ by value { $VALUE$ }" description="&quot;by value&quot; in spec" toReformat="true" toShortenFQNames="true">
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="NAME" expression="kotlinSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="decapitalize(VALUE)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
