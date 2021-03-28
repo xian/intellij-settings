@@ -12,6 +12,7 @@
         <added pattern="kotlin.collections.joinToString(separator,prefix,postfix,limit,truncated,transform)" />
         <added pattern="kotlin.test.expect(expected,block)" />
         <added pattern="baaahs.glshaders.GlslCode.ContentType(description)" />
+        <added pattern="ch.tutteli.atrium.api.fluent.en_GB.containsExactly(expected,otherExpected)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
