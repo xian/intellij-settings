@@ -7,6 +7,7 @@
         <option value="at kotlin.test.junit.JUnitAsserter" />
         <option value="at kotlinx.coroutines.scheduling.CoroutineScheduler" />
         <option value="at org.spekframework.spek2.runtime" />
+        <option value="at ch.tutteli.atrium." />
       </list>
     </option>
   </component>
