@@ -21,6 +21,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta alt right" />
     <keyboard-shortcut first-keystroke="ctrl meta alt left" />
   </action>
+  <action id="Unscramble">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
