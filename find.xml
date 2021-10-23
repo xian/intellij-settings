@@ -14,9 +14,9 @@
     <mask>*.java</mask>
     <mask>build.gradle</mask>
     <mask>*.js</mask>
-    <mask>*.glsl</mask>
     <mask>*.jsx</mask>
     <mask>*.css</mask>
     <mask>*.kt</mask>
+    <mask>*.glsl</mask>
   </component>
 </application>
