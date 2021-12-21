@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="Project 'sparklemotion'" />
+    <option name="defaultScopeName" value="Project 'sparklemotion'" />
+    <option name="SEARCH_SCOPE" value="Project 'sparklemotion'" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.gradle</mask>
