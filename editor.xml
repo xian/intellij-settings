@@ -2,6 +2,7 @@
   <component name="CodeInsightSettings">
     <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
     <EXCLUDED_PACKAGE NAME="kotlin.test.expect" />
+    <EXCLUDED_PACKAGE NAME="kotlinext.js.jso" />
     <EXCLUDED_PACKAGE NAME="materialui.components.stepcontent.enums.StepContentStyle.transition" />
     <EXCLUDED_PACKAGE NAME="net.bytebuddy" />
   </component>
