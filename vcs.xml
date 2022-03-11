@@ -10,6 +10,10 @@
           <option name="url" value="git@github.com:fabmax/kool.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.heroku.com" />
+          <option name="userName" value="xian" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Dev" />
