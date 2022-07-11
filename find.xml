@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Only changes uncommitted to VCS in all files" />
     <option name="defaultScopeName" value="Only changes uncommitted to VCS in all files" />
+    <option name="preserveCase" value="true" />
+    <option name="PRESERVE_CASE_REPLACE" value="true" />
     <option name="SEARCH_SCOPE" value="Only changes uncommitted to VCS in all files" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
