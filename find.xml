@@ -1,8 +1,10 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Default" />
     <option name="defaultScopeName" value="Default" />
     <option name="preserveCase" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="PRESERVE_CASE_REPLACE" value="true" />
     <option name="SEARCH_SCOPE" value="Default" />
     <mask>*.as</mask>
