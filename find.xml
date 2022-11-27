@@ -3,9 +3,11 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="Default" />
     <option name="defaultScopeName" value="Default" />
+    <option name="localWholeWordsOnly" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Default" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
@@ -13,7 +15,6 @@
     <mask>build.gradle</mask>
     <mask>*.js</mask>
     <mask>*.jsx</mask>
-    <mask>*.kt</mask>
     <mask>*.glsl</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
@@ -25,5 +26,6 @@
     <mask>*.gradle</mask>
     <mask>*.h</mask>
     <mask>*.h,*.cpp</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
