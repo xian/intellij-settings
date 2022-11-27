@@ -6,6 +6,7 @@
     <EXCLUDED_PACKAGE NAME="kotlinext.js.jso" />
     <EXCLUDED_PACKAGE NAME="materialui.components.stepcontent.enums.StepContentStyle.transition" />
     <EXCLUDED_PACKAGE NAME="net.bytebuddy" />
+    <EXCLUDED_PACKAGE NAME="org.w3c" />
   </component>
   <component name="CodeVisionSettings">
     <option name="codeVisionGroupToPosition">
