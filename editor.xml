@@ -1,6 +1,7 @@
 <application>
   <component name="CodeInsightSettings">
     <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
+    <EXCLUDED_PACKAGE NAME="dom.html.HTML" />
     <EXCLUDED_PACKAGE NAME="kotlin.test.expect" />
     <EXCLUDED_PACKAGE NAME="kotlin.text.Typography" />
     <EXCLUDED_PACKAGE NAME="kotlinext.js.jso" />
