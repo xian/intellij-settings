@@ -5,19 +5,21 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
-    <mask>*.gradle</mask>
     <mask>Shadow*.java</mask>
     <mask>build.gradle</mask>
     <mask>*.js</mask>
     <mask>*.jsx</mask>
-    <mask>*.kt</mask>
     <mask>*.glsl</mask>
     <mask>*.css</mask>
-    <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.sparkle</mask>
+    <mask>*.gradle</mask>
+    <mask>*.h</mask>
+    <mask>*.h,*.cpp</mask>
+    <mask>*.html</mask>
+    <mask>*.kt</mask>
   </component>
 </application>

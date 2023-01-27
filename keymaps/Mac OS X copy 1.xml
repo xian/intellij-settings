@@ -6,6 +6,12 @@
   </action>
   <action id="ContextHelp" />
   <action id="DatabaseView.OpenDdlInConsole" />
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift meta add" />
     <keyboard-shortcut first-keystroke="shift meta equals" />
