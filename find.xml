@@ -1,8 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" />
+    <option name="defaultScopeName" />
+    <option name="SEARCH_SCOPE" />
+    <option name="FILE_MASK" value="*.h,*.cpp" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>Shadow*.java</mask>
@@ -18,8 +19,8 @@
     <mask>*.sparkle</mask>
     <mask>*.gradle</mask>
     <mask>*.h</mask>
-    <mask>*.h,*.cpp</mask>
     <mask>*.html</mask>
     <mask>*.kt</mask>
+    <mask>*.h,*.cpp</mask>
   </component>
 </application>
